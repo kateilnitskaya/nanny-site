@@ -1,0 +1,33 @@
+$smallMobile: 480px;
+$mobile: 640px;
+$tablet: 960px;
+$desktop: 1200px;
+@media (max-width: $smallMobile) {
+    .container__row {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: $smallMobile) {
+    .container__row {
+        max-width: 460px;
+    }
+}
+
+@media (min-width: $mobile) {
+    .container__row {
+        max-width: 620px;
+    }
+}
+
+@media (min-width: $tablet) {
+    .container__row {
+        max-width: 940px;
+    }
+}
+
+@media (min-width: $desktop) {
+    .container__row {
+        max-width: 1160px;
+    }
+}
